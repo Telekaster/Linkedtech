@@ -45,6 +45,10 @@ ol[class] {
   list-style: none;
 }
 
+li {
+  list-style: none;
+}
+
 /* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
 a:not([class]) {
   text-decoration-skip-ink: auto;
@@ -81,5 +85,48 @@ select {
             transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container, .header {
+  margin-left: 230px;
+  margin-right: 230px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__nav-items {
+  font-family: Hind Siliguri;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.64;
+  text-transform: uppercase;
+  color: #030d15;
+}
+
+.header__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=main.css.map */

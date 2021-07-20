@@ -1,0 +1,26 @@
+.header {
+  @extend .container;
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+}
+
+.header__nav-list {
+  display: flex;
+}
+
+.header__nav-items {
+  font-family: $mainfont;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.64;
+  text-transform: uppercase;
+  color: $headersColor;
+}
+
+.header__buttons {
+  display: flex;
+  align-items: center;
+}

@@ -43,6 +43,10 @@ ol[class] {
   list-style: none;
 }
 
+li {
+  list-style: none;
+}
+
 /* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
 a:not([class]) {
   text-decoration-skip-ink: auto;
@@ -76,4 +80,9 @@ select {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
