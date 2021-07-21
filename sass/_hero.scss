@@ -1,0 +1,40 @@
+.hero {
+  @extend .container;
+}
+
+.hero-hide {
+  .visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+  }
+
+  opacity: 0;
+}
+
+.hero__header {
+  font-family: $mainfont;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.145em;
+  text-transform: uppercase;
+  color: $headerColor_2;
+  opacity: 0.6;
+}
+
+.hero__first {
+  font-family: $mainfont;
+  font-weight: 600;
+  font-size: 61px;
+  line-height: 1.2;
+  color: $hero_background;
+  opacity: 1;
+  //   background-color: $hero_background;
+  //   opacity: 0.1;
+}
