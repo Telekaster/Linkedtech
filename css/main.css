@@ -92,7 +92,7 @@ a {
   color: black;
 }
 
-.container, .header, .hero {
+.container, .header, .hero, .partners {
   margin-left: 230px;
   margin-right: 230px;
 }
@@ -236,6 +236,7 @@ a {
   left: 230px;
   top: 587px;
   background: #247cc0;
+  cursor: pointer;
   font-family: Hind Siliguri;
   font-weight: 600;
   font-size: 16px;
@@ -262,5 +263,26 @@ a {
           text-decoration-line: line-through;
   color: #030d15;
   opacity: 0.5;
+}
+
+.partners {
+  margin-bottom: 132px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 100px 80px rgba(174, 174, 174, 0.08), 0px 43.751px 36.4414px rgba(174, 174, 174, 0.0575083), 0px 19.8401px 19.1406px rgba(174, 174, 174, 0.0476886), 0px 6.77214px 9.61331px rgba(174, 174, 174, 0.04), 0px 0.19008px 4.14347px rgba(174, 174, 174, 0.0323114), 0px -1.73968px 1.20532px rgba(174, 174, 174, 0.0224916);
+          box-shadow: 0px 100px 80px rgba(174, 174, 174, 0.08), 0px 43.751px 36.4414px rgba(174, 174, 174, 0.0575083), 0px 19.8401px 19.1406px rgba(174, 174, 174, 0.0476886), 0px 6.77214px 9.61331px rgba(174, 174, 174, 0.04), 0px 0.19008px 4.14347px rgba(174, 174, 174, 0.0323114), 0px -1.73968px 1.20532px rgba(174, 174, 174, 0.0224916);
+  border-radius: 0px;
+}
+
+.partners__list {
+  height: 237px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 118px;
 }
 /*# sourceMappingURL=main.css.map */
