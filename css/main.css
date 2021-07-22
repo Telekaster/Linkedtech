@@ -98,6 +98,7 @@ a {
 }
 
 .header {
+  margin-bottom: 94px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -158,6 +159,15 @@ a {
   margin-right: 24px;
 }
 
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .hero-hide {
   opacity: 0;
 }
@@ -174,6 +184,7 @@ a {
 }
 
 .hero__header {
+  margin-bottom: 3px;
   font-family: Hind Siliguri;
   font-weight: 500;
   font-size: 16px;
@@ -190,6 +201,66 @@ a {
   font-size: 61px;
   line-height: 1.2;
   color: #247cc0;
-  opacity: 1;
+}
+
+.hero__second {
+  margin-bottom: 29px;
+  font-family: Hind Siliguri;
+  font-weight: 400;
+  font-size: 61px;
+  line-height: 1.2;
+  color: #030d15;
+}
+
+.hero__third {
+  margin-bottom: 36px;
+  font-family: Hind Siliguri;
+  font-size: 20px;
+  line-height: 1.35;
+  color: #030d15;
+  opacity: 0.6;
+}
+
+.hero__button-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero__button {
+  width: 151px;
+  height: 58px;
+  left: 230px;
+  top: 587px;
+  background: #247cc0;
+  font-family: Hind Siliguri;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.63;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero__new-price {
+  margin-left: 31px;
+  font-family: Hind Siliguri;
+  font-size: 20px;
+  line-height: 1.35;
+  color: #030d15;
+}
+
+.hero__old-price {
+  margin-left: 18px;
+  font-family: Hind Siliguri;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.69;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  color: #030d15;
+  opacity: 0.5;
 }
 /*# sourceMappingURL=main.css.map */
