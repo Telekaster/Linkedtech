@@ -1,0 +1,90 @@
+.recommended {
+  @extend .container;
+  margin-bottom: 160px;
+}
+
+.recommended_list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: calc((100%) / 2);
+}
+
+.recommended_item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recommended__discription {
+  margin-left: 11px;
+}
+
+.recommended_header {
+  margin-bottom: 9px;
+
+  font-family: $mainfont;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 1.6;
+  color: $headersColor;
+}
+
+.recommended_text {
+  margin-bottom: 20px;
+
+  width: 256px;
+
+  font-family: $mainfont;
+  font-size: 10px;
+  line-height: 1.5;
+  color: $headersColor;
+  opacity: 0.6;
+}
+
+.recommended__new-price {
+  margin-bottom: 15px;
+
+  font-family: $mainfont;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.7;
+  color: $headersColor;
+}
+
+.recommended__slash {
+  font-family: $mainfont;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.93;
+  text-align: center;
+  color: $headersColor;
+  opacity: 0.5;
+}
+
+.recommended__old-price {
+  @extend .recommended__slash;
+  text-decoration-line: line-through;
+}
+
+.recommended_button-1 {
+  position: absolute;
+  transform: translate(240px, -15px);
+  width: 30px;
+  height: 30px;
+
+  cursor: pointer;
+
+  background: $contract_color;
+  border: none;
+}
+
+.recommended_button-2 {
+  position: absolute;
+  transform: translate(240px, -15px);
+  width: 30px;
+  height: 30px;
+
+  cursor: pointer;
+
+  background: $contract_color;
+  border: none;
+}

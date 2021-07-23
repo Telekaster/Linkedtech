@@ -92,7 +92,7 @@ a {
   color: black;
 }
 
-.container, .header, .hero, .partners {
+.container, .header, .hero, .partners, .recommended {
   margin-left: 230px;
   margin-right: 230px;
 }
@@ -204,6 +204,7 @@ a {
 }
 
 .hero__second {
+  width: 555px;
   margin-bottom: 29px;
   font-family: Hind Siliguri;
   font-weight: 400;
@@ -214,6 +215,7 @@ a {
 
 .hero__third {
   margin-bottom: 36px;
+  width: 515px;
   font-family: Hind Siliguri;
   font-size: 20px;
   line-height: 1.35;
@@ -237,6 +239,7 @@ a {
   top: 587px;
   background: #247cc0;
   cursor: pointer;
+  border: none;
   font-family: Hind Siliguri;
   font-weight: 600;
   font-size: 16px;
@@ -284,5 +287,97 @@ a {
       -ms-flex-align: center;
           align-items: center;
   padding-left: 118px;
+}
+
+.recommended {
+  margin-bottom: 160px;
+}
+
+.recommended_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-preferred-size: calc((100%) / 2);
+      flex-basis: calc((100%) / 2);
+}
+
+.recommended_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.recommended__discription {
+  margin-left: 11px;
+}
+
+.recommended_header {
+  margin-bottom: 9px;
+  font-family: Hind Siliguri;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 1.6;
+  color: #030d15;
+}
+
+.recommended_text {
+  margin-bottom: 20px;
+  width: 256px;
+  font-family: Hind Siliguri;
+  font-size: 10px;
+  line-height: 1.5;
+  color: #030d15;
+  opacity: 0.6;
+}
+
+.recommended__new-price {
+  margin-bottom: 15px;
+  font-family: Hind Siliguri;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.7;
+  color: #030d15;
+}
+
+.recommended__slash, .recommended__old-price {
+  font-family: Hind Siliguri;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.93;
+  text-align: center;
+  color: #030d15;
+  opacity: 0.5;
+}
+
+.recommended__old-price {
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+}
+
+.recommended_button-1 {
+  position: absolute;
+  -webkit-transform: translate(240px, -15px);
+          transform: translate(240px, -15px);
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  background: #ffffff;
+  border: none;
+}
+
+.recommended_button-2 {
+  position: absolute;
+  -webkit-transform: translate(240px, -15px);
+          transform: translate(240px, -15px);
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  background: #ffffff;
+  border: none;
 }
 /*# sourceMappingURL=main.css.map */

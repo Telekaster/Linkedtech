@@ -43,6 +43,8 @@
 }
 
 .hero__second {
+  width: 555px;
+
   margin-bottom: 29px;
   font-family: $mainfont;
   font-weight: 400;
@@ -53,6 +55,7 @@
 
 .hero__third {
   margin-bottom: 36px;
+  width: 515px;
 
   font-family: $mainfont;
   font-size: 20px;
@@ -74,6 +77,7 @@
   background: $hero_background;
 
   cursor: pointer;
+  border: none;
 
   font-family: $mainfont;
   font-weight: 600;
