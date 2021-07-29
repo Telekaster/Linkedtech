@@ -1,0 +1,61 @@
+.commercials {
+  @extend .container;
+
+  margin-bottom: 160px;
+}
+
+.commercials__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.commercials__item {
+  //   width: 555px;
+  width: 520px;
+  height: 296px;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  background: linear-gradient(257.26deg, #008bf0 -13.2%, #d943c9 130.95%);
+}
+
+.commercials__title {
+  margin-top: 75px;
+  margin-left: 35px;
+
+  font-family: $mainfont;
+  font-size: 16px;
+  line-height: 1.69;
+  text-transform: uppercase;
+  color: $contract_color2;
+  opacity: 0.6;
+}
+
+.commercials__text {
+  margin-top: 5px;
+  margin-left: 35px;
+
+  width: 249px;
+
+  font-family: $mainfont;
+  font-weight: 600;
+  font-size: 31px;
+  line-height: 1.3;
+  color: $contract_color2;
+}
+
+.commercials__link {
+  margin-top: 7px;
+  margin-left: 35px;
+
+  font-family: $mainfont;
+  font-size: 14px;
+  line-height: 1.93;
+  text-align: center;
+  text-transform: uppercase;
+  color: $contract_color2;
+}
+
+.commercials__img {
+  transform: translate(270px, -180px);
+}
