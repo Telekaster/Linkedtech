@@ -1,0 +1,138 @@
+.newProducts {
+  @extend .container;
+}
+
+.newProducts__header {
+  @extend .hero__header;
+  text-align: center;
+}
+
+.newProducts__title {
+  @extend .about_title;
+  text-align: center;
+}
+
+.newProducts__list {
+  display: flex;
+  justify-content: center;
+}
+
+.newProducts__item {
+  margin-right: 40px;
+  margin-bottom: 50px;
+
+  font-family: $mainfont;
+  font-size: 14px;
+  line-height: 1.64;
+  text-transform: uppercase;
+}
+
+.newProducts__item__first {
+  @extend .newProducts__item;
+  color: $headerColor_2;
+}
+
+.newProducts__cart__list {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+
+  flex-basis: calc(100% / 3);
+  justify-content: space-around;
+}
+
+.newProducts__cart__item {
+  margin-top: 50px;
+  width: 340px;
+  height: 503px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.newProducts__cart__discount {
+  margin-left: 35px;
+  margin-top: 35px;
+
+  font-family: $mainfont;
+  font-size: 16px;
+  line-height: 1.69;
+  color: $headersColor;
+}
+
+.newProducts__cart__title__first {
+  margin-left: 35px;
+  margin-top: 32px;
+
+  font-family: $mainfont;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 1.6;
+  color: $headersColor;
+}
+
+.newProducts__cart__title__second {
+  @extend .newProducts__cart__title__first;
+  margin-top: 72px;
+}
+.newProducts__cart__title__third {
+  @extend .newProducts__cart__title__first;
+  margin-top: 112px;
+}
+
+.newProducts__cart__title__third {
+  @extend .newProducts__cart__title__first;
+}
+
+.newProducts__cart__title__fourth {
+  @extend .newProducts__cart__title__first;
+}
+
+.newProducts__cart__title__fifth {
+  @extend .newProducts__cart__title__first;
+}
+
+.newProducts__cart__title__sixth {
+  @extend .newProducts__cart__title__first;
+}
+
+.newProducts__cart__price {
+  margin-left: 35px;
+  margin-bottom: 7px;
+}
+
+.newProducts__cart__oldPrice {
+  font-family: $mainfont;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.93;
+  text-align: center;
+  text-decoration-line: line-through;
+  color: $headersColor;
+  opacity: 0.5;
+}
+
+.newProducts__cart__stars {
+  margin-left: 35px;
+}
+
+.newProducts__cart__image {
+  margin: auto;
+}
+
+.newProducts__cart__image__third {
+  @extend .newProducts__cart__image;
+  margin-top: 50px;
+}
+
+.newProducts__cart__all {
+  display: block;
+  margin-top: 56px;
+  margin-bottom: 146px;
+
+  font-family: $mainfont;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.64;
+  text-align: center;
+  text-transform: uppercase;
+  color: $headersColor;
+}
