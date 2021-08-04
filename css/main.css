@@ -199,7 +199,7 @@ a {
   overflow: hidden;
 }
 
-.hero__header, .newProducts__header {
+.hero__header, .newProducts__header, .new_shop__header {
   margin-bottom: 3px;
   font-family: Hind Siliguri;
   font-weight: 500;
@@ -360,7 +360,7 @@ a {
   color: #030d15;
 }
 
-.recommended__slash, .recommended__old-price {
+.recommended__slash, .recommended__old-price, .new_shop__old_price {
   font-family: Hind Siliguri;
   font-weight: 300;
   font-size: 14px;
@@ -370,7 +370,7 @@ a {
   opacity: 0.5;
 }
 
-.recommended__old-price {
+.recommended__old-price, .new_shop__old_price {
   -webkit-text-decoration-line: line-through;
           text-decoration-line: line-through;
 }
@@ -467,7 +467,7 @@ a {
   margin-bottom: 125px;
 }
 
-.about_title, .newProducts__title {
+.about_title, .newProducts__title, .new_shop__title {
   margin-bottom: 31px;
   font-family: Hind Siliguri;
   font-weight: 600;
@@ -483,7 +483,7 @@ a {
   background: #f4f9fc;
 }
 
-.about_text {
+.about_text, .new_shop__text {
   width: 457px;
   margin-bottom: 40px;
   font-family: Hind Siliguri;
@@ -522,11 +522,11 @@ a {
   background: #247cc0;
 }
 
-.newProducts__header {
+.newProducts__header, .new_shop__header {
   text-align: center;
 }
 
-.newProducts__title {
+.newProducts__title, .new_shop__title {
   text-align: center;
 }
 
@@ -639,5 +639,59 @@ a {
   text-align: center;
   text-transform: uppercase;
   color: #030d15;
+}
+
+.new_shop__text {
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.new_shop__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.new_shop__item {
+  width: 360px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 20px;
+}
+
+.new_shop__item_active {
+  width: 360px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 20px;
+}
+
+.new_shop__price {
+  margin-left: 35px;
+  margin-top: 35px;
+}
+
+.new_shop__stars {
+  margin-left: 35px;
+}
+
+.new_shop__image {
+  margin: auto;
+}
+
+.new_shop__image_active {
+  margin: auto;
+  margin-bottom: 53px;
+}
+
+.new_shop__svg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 28px;
 }
 /*# sourceMappingURL=main.css.map */
