@@ -1,0 +1,66 @@
+.contacts {
+  background: #f4f9fc;
+}
+
+.contacts__section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  @extend .container;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contacts__title {
+  @extend .hero__header;
+}
+
+.contacts__header {
+  font-family: $mainfont;
+  font-size: 25px;
+  line-height: 1.6;
+  color: $headersColor;
+}
+
+.contacts__text {
+  @extend .recommended_text;
+}
+
+.contacts__input_area {
+  display: flex;
+  align-content: center;
+}
+
+.contacts__input {
+  width: 335px;
+  height: 50px;
+
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+
+  // text
+  padding-left: 26px;
+  font-family: $mainfont;
+  font-size: 14px;
+  line-height: 1.5;
+  color: $headersColor;
+  opacity: 0.4;
+}
+
+.contacts__button {
+  width: 122px;
+  height: 50px;
+
+  border: none;
+  background: $hero_background;
+
+  font-family: $mainfont;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.64;
+  text-align: center;
+  text-transform: uppercase;
+  color: $contract_color;
+}

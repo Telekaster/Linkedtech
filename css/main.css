@@ -108,7 +108,7 @@ a {
   overflow: hidden;
 }
 
-.container, .header, .hero, .partners, .recommended, .commercials, .about_section, .newProducts {
+.container, .header, .hero, .partners, .recommended, .commercials, .about_section, .newProducts, .new_shop__section, .contacts__section {
   margin-left: 230px;
   margin-right: 230px;
 }
@@ -199,7 +199,7 @@ a {
   overflow: hidden;
 }
 
-.hero__header, .newProducts__header, .new_shop__header {
+.hero__header, .newProducts__header, .new_shop__header, .contacts__title {
   margin-bottom: 3px;
   font-family: Hind Siliguri;
   font-weight: 500;
@@ -341,7 +341,7 @@ a {
   color: #030d15;
 }
 
-.recommended_text {
+.recommended_text, .contacts__text {
   margin-bottom: 20px;
   width: 256px;
   font-family: Hind Siliguri;
@@ -641,6 +641,10 @@ a {
   color: #030d15;
 }
 
+.new_shop__section {
+  padding-bottom: 130px;
+}
+
 .new_shop__text {
   display: block;
   margin: auto;
@@ -693,5 +697,67 @@ a {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   margin-bottom: 28px;
+}
+
+.contacts {
+  background: #f4f9fc;
+}
+
+.contacts__section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacts__header {
+  font-family: Hind Siliguri;
+  font-size: 25px;
+  line-height: 1.6;
+  color: #030d15;
+}
+
+.contacts__input_area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.contacts__input {
+  width: 335px;
+  height: 50px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 26px;
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #030d15;
+  opacity: 0.4;
+}
+
+.contacts__button {
+  width: 122px;
+  height: 50px;
+  border: none;
+  background: #247cc0;
+  font-family: Hind Siliguri;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.64;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */
