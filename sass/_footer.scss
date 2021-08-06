@@ -1,0 +1,80 @@
+.footer {
+  background: #030d15;
+  padding-top: 75px;
+  padding-bottom: 56px;
+}
+
+.footer__section {
+  @extend .container;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__logo {
+  display: block;
+  margin-bottom: 22px;
+}
+
+.footer__title {
+  margin-bottom: 26px;
+
+  font-family: $mainfont;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.44;
+  color: $contract_color;
+}
+
+.footer__text {
+  display: block;
+  margin-bottom: 15px;
+
+  font-family: $mainfont;
+  font-size: 13px;
+  line-height: 1.64;
+  color: $contract_color;
+  opacity: 0.6;
+}
+
+.company__link {
+  display: block;
+  margin-top: 14px;
+  margin-bottom: 16px;
+
+  font-family: $mainfont;
+  font-size: 14px;
+  line-height: 1.64;
+  color: $contract_color;
+}
+
+.footer__socials_list {
+  display: flex;
+  justify-content: stretch;
+}
+
+.footer__socials_item {
+  margin-right: 25px;
+  margin-bottom: 58px;
+}
+
+.change_language {
+  display: flex;
+  text-align: center;
+}
+
+.change_language_planet {
+  margin-right: 9px;
+}
+
+.change_language_text {
+  font-family: $mainfont;
+  font-size: 14px;
+  line-height: 1.64;
+  color: $contract_color;
+}
+
+.change_language_menu {
+  fill: #ffffff;
+  stroke: #ffffff;
+  margin-left: 4px;
+}

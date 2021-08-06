@@ -108,7 +108,7 @@ a {
   overflow: hidden;
 }
 
-.container, .header, .hero, .partners, .recommended, .commercials, .about_section, .newProducts, .new_shop__section, .contacts__section {
+.container, .header, .hero, .partners, .recommended, .commercials, .about_section, .newProducts, .new_shop__section, .contacts__section, .footer__section {
   margin-left: 230px;
   margin-right: 230px;
 }
@@ -759,5 +759,91 @@ a {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+.footer {
+  background: #030d15;
+  padding-top: 75px;
+  padding-bottom: 56px;
+}
+
+.footer__section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer__logo {
+  display: block;
+  margin-bottom: 22px;
+}
+
+.footer__title {
+  margin-bottom: 26px;
+  font-family: Hind Siliguri;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.44;
+  color: #ffffff;
+}
+
+.footer__text {
+  display: block;
+  margin-bottom: 15px;
+  font-family: Hind Siliguri;
+  font-size: 13px;
+  line-height: 1.64;
+  color: #ffffff;
+  opacity: 0.6;
+}
+
+.company__link {
+  display: block;
+  margin-top: 14px;
+  margin-bottom: 16px;
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  line-height: 1.64;
+  color: #ffffff;
+}
+
+.footer__socials_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+}
+
+.footer__socials_item {
+  margin-right: 25px;
+  margin-bottom: 58px;
+}
+
+.change_language {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.change_language_planet {
+  margin-right: 9px;
+}
+
+.change_language_text {
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  line-height: 1.64;
+  color: #ffffff;
+}
+
+.change_language_menu {
+  fill: #ffffff;
+  stroke: #ffffff;
+  margin-left: 4px;
 }
 /*# sourceMappingURL=main.css.map */
