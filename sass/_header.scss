@@ -1,5 +1,6 @@
 .header {
   @extend .container;
+  margin-top: 33px;
   margin-bottom: 94px;
   display: flex;
   align-items: center;
@@ -27,6 +28,16 @@
   margin-left: 40px;
 }
 
+.header__nav_link {
+  transition: color 250ms, fill 250ms;
+}
+
+.header__nav_link:hover,
+.header__nav_link:focus {
+  color: $headerColor_2;
+  fill: $headerColor_2;
+}
+
 .header__nav-svg {
   margin-left: 8px;
   text-align: center;
@@ -39,8 +50,30 @@
 
 .header__buttons-search {
   margin-right: 30px;
+  transition: fill 250ms;
+}
+
+.header__buttons-search:hover,
+.header__buttons-search:focus {
+  fill: $headerColor_2;
 }
 
 .header__buttons-cart {
   margin-right: 24px;
+
+  transition: stroke 250ms;
+}
+
+.header__buttons-cart:hover,
+.header__buttons-cart:focus {
+  stroke: $headerColor_2;
+}
+
+.header__buttons_profile {
+  transition: stroke 250ms;
+}
+
+.header__buttons_profile:hover,
+.header__buttons_profile:focus {
+  stroke: $headerColor_2;
 }
