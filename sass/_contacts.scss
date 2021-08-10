@@ -55,6 +55,7 @@
 
   border: none;
   background: $hero_background;
+  cursor: pointer;
 
   font-family: $mainfont;
   font-weight: 600;
@@ -63,4 +64,11 @@
   text-align: center;
   text-transform: uppercase;
   color: $contract_color;
+
+  transition: transform linear 250ms;
+}
+
+.contacts__button:hover,
+.contacts__button:focus {
+  transform: scale(1.1);
 }

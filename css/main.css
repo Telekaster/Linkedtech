@@ -161,8 +161,8 @@ a {
 
 .header__nav_link:hover,
 .header__nav_link:focus {
-  color: #c72535;
-  fill: #c72535;
+  color: #247cc0;
+  fill: #247cc0;
 }
 
 .header__nav-svg {
@@ -187,7 +187,7 @@ a {
 
 .header__buttons-search:hover,
 .header__buttons-search:focus {
-  fill: #c72535;
+  fill: #247cc0;
 }
 
 .header__buttons-cart {
@@ -198,7 +198,7 @@ a {
 
 .header__buttons-cart:hover,
 .header__buttons-cart:focus {
-  stroke: #c72535;
+  stroke: #247cc0;
 }
 
 .header__buttons_profile {
@@ -208,7 +208,7 @@ a {
 
 .header__buttons_profile:hover,
 .header__buttons_profile:focus {
-  stroke: #c72535;
+  stroke: #247cc0;
 }
 
 .hero {
@@ -284,7 +284,7 @@ a {
           align-items: center;
 }
 
-.hero__button:hover .hero__button {
+.hero__button {
   width: 151px;
   height: 58px;
   left: 230px;
@@ -298,6 +298,16 @@ a {
   line-height: 1.63;
   text-transform: uppercase;
   color: #ffffff;
+  -webkit-transition: -webkit-transform linear 250ms;
+  transition: -webkit-transform linear 250ms;
+  transition: transform linear 250ms;
+  transition: transform linear 250ms, -webkit-transform linear 250ms;
+}
+
+.hero__button:hover,
+.hero__button:focus {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .hero__new-price {
@@ -420,6 +430,13 @@ a {
   cursor: pointer;
   background: #ffffff;
   border: none;
+  -webkit-transition: stroke 2000ms linear;
+  transition: stroke 2000ms linear;
+}
+
+.recommended_button-1:hover,
+.recommended_button-1:focus {
+  stroke: #247cc0;
 }
 
 .recommended_button-2 {
@@ -431,6 +448,11 @@ a {
   cursor: pointer;
   background: #ffffff;
   border: none;
+}
+
+.recommended_button-2:hover,
+.recommended_button-2:focus {
+  stroke: #247cc0;
 }
 
 .commercials {
@@ -486,6 +508,11 @@ a {
   text-align: center;
   text-transform: uppercase;
   color: #f4f9fc;
+}
+
+.commercials__link:hover,
+.commercials__link:focus {
+  text-decoration: underline;
 }
 
 .commercials__img {
@@ -582,6 +609,14 @@ a {
   font-size: 14px;
   line-height: 1.64;
   text-transform: uppercase;
+  -webkit-transition: color linear 250ms;
+  transition: color linear 250ms;
+}
+
+.newProducts__item:hover, .newProducts__item__first:hover,
+.newProducts__item:focus,
+.newProducts__item__first:focus {
+  color: #c72535;
 }
 
 .newProducts__item__first {
@@ -666,8 +701,10 @@ a {
 
 .newProducts__cart__all {
   display: block;
+  margin: auto;
   margin-top: 56px;
   margin-bottom: 146px;
+  width: 100px;
   font-family: Hind Siliguri;
   font-weight: 600;
   font-size: 14px;
@@ -675,6 +712,14 @@ a {
   text-align: center;
   text-transform: uppercase;
   color: #030d15;
+  -webkit-transition: color linear 250ms, fill linear 250ms;
+  transition: color linear 250ms, fill linear 250ms;
+}
+
+.newProducts__cart__all:hover,
+.newProducts__cart__all:focus {
+  color: #247cc0;
+  fill: #247cc0;
 }
 
 .new_shop__section {
@@ -788,6 +833,7 @@ a {
   height: 50px;
   border: none;
   background: #247cc0;
+  cursor: pointer;
   font-family: Hind Siliguri;
   font-weight: 600;
   font-size: 14px;
@@ -795,6 +841,16 @@ a {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
+  -webkit-transition: -webkit-transform linear 250ms;
+  transition: -webkit-transform linear 250ms;
+  transition: transform linear 250ms;
+  transition: transform linear 250ms, -webkit-transform linear 250ms;
+}
+
+.contacts__button:hover,
+.contacts__button:focus {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .footer {
@@ -825,7 +881,7 @@ a {
   color: #ffffff;
 }
 
-.footer__text {
+.footer__text, .footer__text_link {
   display: block;
   margin-bottom: 15px;
   font-family: Hind Siliguri;
@@ -833,6 +889,16 @@ a {
   line-height: 1.64;
   color: #ffffff;
   opacity: 0.6;
+}
+
+.footer__text_link {
+  -webkit-transition: color linear 250ms;
+  transition: color linear 250ms;
+}
+
+.footer__text_link:hover,
+.footer__text_link:focus {
+  color: #c72535;
 }
 
 .company__link {
@@ -843,6 +909,13 @@ a {
   font-size: 14px;
   line-height: 1.64;
   color: #ffffff;
+  -webkit-transition: color linear 250ms;
+  transition: color linear 250ms;
+}
+
+.company__link:hover,
+.company__link:focus {
+  color: #c72535;
 }
 
 .footer__socials_list {
@@ -857,6 +930,16 @@ a {
 .footer__socials_item {
   margin-right: 25px;
   margin-bottom: 58px;
+  cursor: pointer;
+}
+
+.footer__socials_link {
+  color: tomato;
+}
+
+.footer__socials_link:hover,
+.footer__socials_link:focus {
+  fill: #c72535;
 }
 
 .change_language {
@@ -864,6 +947,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   text-align: center;
+  cursor: pointer;
 }
 
 .change_language_planet {

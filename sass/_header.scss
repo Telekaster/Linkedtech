@@ -34,8 +34,8 @@
 
 .header__nav_link:hover,
 .header__nav_link:focus {
-  color: $headerColor_2;
-  fill: $headerColor_2;
+  color: $hero_background;
+  fill: $hero_background;
 }
 
 .header__nav-svg {
@@ -55,7 +55,7 @@
 
 .header__buttons-search:hover,
 .header__buttons-search:focus {
-  fill: $headerColor_2;
+  fill: $hero_background;
 }
 
 .header__buttons-cart {
@@ -66,7 +66,7 @@
 
 .header__buttons-cart:hover,
 .header__buttons-cart:focus {
-  stroke: $headerColor_2;
+  stroke: $hero_background;
 }
 
 .header__buttons_profile {
@@ -75,5 +75,5 @@
 
 .header__buttons_profile:hover,
 .header__buttons_profile:focus {
-  stroke: $headerColor_2;
+  stroke: $hero_background;
 }

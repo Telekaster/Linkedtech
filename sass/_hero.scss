@@ -69,7 +69,7 @@
   align-items: center;
 }
 
-.hero__button:hover .hero__button {
+.hero__button {
   width: 151px;
   height: 58px;
   left: 230px;
@@ -85,6 +85,13 @@
   line-height: 1.63;
   text-transform: uppercase;
   color: $contract_color;
+
+  transition: transform linear 250ms;
+}
+
+.hero__button:hover,
+.hero__button:focus {
+  transform: scale(1.1);
 }
 
 .hero__new-price {

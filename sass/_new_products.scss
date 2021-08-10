@@ -25,6 +25,13 @@
   font-size: 14px;
   line-height: 1.64;
   text-transform: uppercase;
+
+  transition: color linear 250ms;
+}
+
+.newProducts__item:hover,
+.newProducts__item:focus {
+  color: $headerColor_2;
 }
 
 .newProducts__item__first {
@@ -125,8 +132,11 @@
 
 .newProducts__cart__all {
   display: block;
+  margin: auto;
   margin-top: 56px;
   margin-bottom: 146px;
+
+  width: 100px;
 
   font-family: $mainfont;
   font-weight: 600;
@@ -135,4 +145,12 @@
   text-align: center;
   text-transform: uppercase;
   color: $headersColor;
+
+  transition: color linear 250ms, fill linear 250ms;
+}
+
+.newProducts__cart__all:hover,
+.newProducts__cart__all:focus {
+  color: $hero_background;
+  fill: $hero_background;
 }

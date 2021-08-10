@@ -56,6 +56,11 @@
   color: $contract_color2;
 }
 
+.commercials__link:hover,
+.commercials__link:focus {
+  text-decoration: underline;
+}
+
 .commercials__img {
   transform: translate(270px, -180px);
 }

@@ -36,6 +36,16 @@
   opacity: 0.6;
 }
 
+.footer__text_link {
+  @extend .footer__text;
+  transition: color linear 250ms;
+}
+
+.footer__text_link:hover,
+.footer__text_link:focus {
+  color: $headerColor_2;
+}
+
 .company__link {
   display: block;
   margin-top: 14px;
@@ -45,6 +55,13 @@
   font-size: 14px;
   line-height: 1.64;
   color: $contract_color;
+
+  transition: color linear 250ms;
+}
+
+.company__link:hover,
+.company__link:focus {
+  color: $headerColor_2;
 }
 
 .footer__socials_list {
@@ -55,11 +72,22 @@
 .footer__socials_item {
   margin-right: 25px;
   margin-bottom: 58px;
+  cursor: pointer;
+}
+
+.footer__socials_link {
+  color: tomato;
+}
+
+.footer__socials_link:hover,
+.footer__socials_link:focus {
+  fill: $headerColor_2;
 }
 
 .change_language {
   display: flex;
   text-align: center;
+  cursor: pointer;
 }
 
 .change_language_planet {
