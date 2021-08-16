@@ -1,6 +1,7 @@
 .new_shop__section {
   @extend .container;
-  padding-bottom: 130px;
+  padding-bottom: 550px;
+  position: relative;
 }
 
 .new_shop__header {
@@ -20,26 +21,63 @@
 }
 
 .new_shop__list {
-  display: flex;
-  flex-wrap: wrap;
+  position: relative;
+  // display: flex;
+  // flex-wrap: wrap;
 }
 
-.new_shop__item {
+.new_shop__item_1 {
   width: 360px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding-bottom: 20px;
+  height: auto;
+  position: absolute;
 }
 
-.new_shop__item_active {
-  width: 360px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  padding-bottom: 20px;
+.list_active {
+  border: none;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
 }
 
-.new_shop__price {
-  margin-left: 35px;
-  margin-top: 35px;
+.new_shop__item_2 {
+  @extend .new_shop__item_1;
+  position: absolute;
+  transform: translate(390px);
 }
+
+// .new_shop__item_3 {
+//   position: absolute;
+//   transform: translate(780px, -350px);
+// }
+
+// .new_shop__item_4 {
+//   @extend .new_shop__item_1;
+//   position: absolute;
+//   transform: translate(390px, -80px);
+//   width: auto;
+//   height: 250px;
+// }
+
+// .new_shop__item_5 {
+//   @extend .new_shop__item_1;
+//   position: absolute;
+//   transform: translate(0px, 60px);
+// }
+
+// .new_shop__item_6 {
+//   @extend .new_shop__item_1;
+//   position: absolute;
+//   transform: translate(390px, 200px);
+// }
+
+// .new_shop__item_7 {
+//   @extend .new_shop__item_1;
+//   width: auto;
+//   height: 354px;
+
+//   position: absolute;
+//   transform: translate(780px, 65px);
+// }
 
 .new_shop__old_price {
   @extend .recommended__old-price;
@@ -55,12 +93,40 @@
 
 .new_shop__image_active {
   margin: auto;
-  margin-bottom: 53px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .new_shop__svg {
+  display: none;
+}
+
+.new_shop__svg_btn {
+  border: none;
+  cursor: pointer;
+  background-color: #fff;
+  transition: fill 250ms linear;
+}
+
+.new_shop__svg_btn:hover {
+  fill: $headerColor_2;
+}
+
+.js_active {
   display: flex;
   justify-content: space-around;
-
   margin-bottom: 28px;
+}
+
+.new_shop__price {
+  margin-left: 35px;
+  margin-top: 35px;
+}
+
+.new_shop__price_area {
+  display: none;
+}
+
+.price_active {
+  display: block;
 }
