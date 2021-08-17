@@ -1,6 +1,6 @@
 .new_shop__section {
   @extend .container;
-  padding-bottom: 550px;
+  padding-bottom: 950px;
   position: relative;
 }
 
@@ -27,11 +27,17 @@
 }
 
 .new_shop__item_1 {
-  width: 360px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  padding-bottom: 20px;
-  height: auto;
   position: absolute;
+
+  width: 359px;
+  height: 330px;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.new_shop__image_1 {
+  margin: auto;
+  margin-top: 70px;
 }
 
 .list_active {
@@ -41,43 +47,39 @@
 
 .new_shop__item_2 {
   @extend .new_shop__item_1;
-  position: absolute;
   transform: translate(390px);
+  height: 252px;
 }
 
-// .new_shop__item_3 {
-//   position: absolute;
-//   transform: translate(780px, -350px);
-// }
+.new_shop__item_3 {
+  @extend .new_shop__item_1;
+  transform: translate(780px, 0px);
+  height: 432px;
+}
 
-// .new_shop__item_4 {
-//   @extend .new_shop__item_1;
-//   position: absolute;
-//   transform: translate(390px, -80px);
-//   width: auto;
-//   height: 250px;
-// }
+.new_shop__item_4 {
+  @extend .new_shop__item_1;
+  transform: translate(390px, 290px);
+  height: 252px;
+}
 
-// .new_shop__item_5 {
-//   @extend .new_shop__item_1;
-//   position: absolute;
-//   transform: translate(0px, 60px);
-// }
+.new_shop__item_5 {
+  @extend .new_shop__item_1;
+  transform: translate(0px, 365px);
+  height: 456px;
+}
 
-// .new_shop__item_6 {
-//   @extend .new_shop__item_1;
-//   position: absolute;
-//   transform: translate(390px, 200px);
-// }
+.new_shop__item_6 {
+  @extend .new_shop__item_1;
+  transform: translate(390px, 570px);
+  height: 252px;
+}
 
-// .new_shop__item_7 {
-//   @extend .new_shop__item_1;
-//   width: auto;
-//   height: 354px;
-
-//   position: absolute;
-//   transform: translate(780px, 65px);
-// }
+.new_shop__item_7 {
+  @extend .new_shop__item_1;
+  transform: translate(780px, 470px);
+  height: 353px;
+}
 
 .new_shop__old_price {
   @extend .recommended__old-price;
@@ -89,12 +91,6 @@
 
 .new_shop__image {
   margin: auto;
-}
-
-.new_shop__image_active {
-  margin: auto;
-  margin-top: 15px;
-  margin-bottom: 15px;
 }
 
 .new_shop__svg {
