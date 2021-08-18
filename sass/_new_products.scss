@@ -158,6 +158,18 @@
   display: none;
 }
 
+.newProducts__cart__buttons {
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: fill 250ms linear;
+}
+
+.newProducts__cart__buttons:hover,
+.newProducts__cart__buttons:focus {
+  fill: $headerColor_2;
+}
+
 .newProducts__cart__color {
   display: none;
 }
@@ -165,6 +177,7 @@
 .newProducts__cart__color_button {
   background: none;
   border: none;
+  cursor: pointer;
 }
 
 .newProducts__cart__color_button:hover {

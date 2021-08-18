@@ -35,9 +35,20 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+.image_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .new_shop__image_1 {
   margin: auto;
-  margin-top: 70px;
+  margin-top: 84px;
+}
+
+.image_active {
+  margin-top: 0px;
+  margin-bottom: 40px;
 }
 
 .list_active {
@@ -67,6 +78,7 @@
   @extend .new_shop__item_1;
   transform: translate(0px, 365px);
   height: 456px;
+  text-align: center;
 }
 
 .new_shop__item_6 {
@@ -87,10 +99,6 @@
 
 .new_shop__stars {
   margin-left: 35px;
-}
-
-.new_shop__image {
-  margin: auto;
 }
 
 .new_shop__svg {
