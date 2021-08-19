@@ -181,10 +181,36 @@ a {
 
 .header__buttons-search {
   margin-right: 30px;
+  stroke: black;
+  fill: #fff;
+  -webkit-transition: stroke 250ms linear;
+  transition: stroke 250ms linear;
 }
 
 .header__buttons-cart {
   margin-right: 24px;
+  -webkit-transition: stroke 250ms linear;
+  transition: stroke 250ms linear;
+}
+
+.header__buttons-search:hover,
+.header__buttons-search:focus {
+  stroke: #247cc0;
+}
+
+.header__buttons-cart:hover,
+.header__buttons-cart:focus {
+  stroke: #247cc0;
+}
+
+.header__buttons_profile {
+  -webkit-transition: stroke 250ms linear;
+  transition: stroke 250ms linear;
+}
+
+.header__buttons_profile:hover,
+.header__buttons_profile:focus {
+  stroke: #247cc0;
 }
 
 .hero {
@@ -707,11 +733,13 @@ a {
   cursor: pointer;
   -webkit-transition: fill 250ms linear;
   transition: fill 250ms linear;
+  stroke: #030d15;
+  fill: #ffffff;
 }
 
 .newProducts__cart__buttons:hover,
 .newProducts__cart__buttons:focus {
-  fill: #c72535;
+  stroke: #247cc0;
 }
 
 .newProducts__cart__color {
@@ -862,6 +890,18 @@ a {
 
 .new_shop__svg_btn:hover {
   fill: #c72535;
+}
+
+.new_shop__icon {
+  stroke: black;
+  fill: white;
+  -webkit-transition: stroke 250ms linear;
+  transition: stroke 250ms linear;
+}
+
+.new_shop__icon:hover,
+.new_shop__icon:focus {
+  stroke: #247cc0;
 }
 
 .js_active {
@@ -1039,13 +1079,15 @@ a {
   cursor: pointer;
 }
 
-.footer__socials_link {
-  color: tomato;
+.footer__socials_icon {
+  stroke: yellowgreen;
+  fill: yellowgreen;
+  color: blue;
 }
 
-.footer__socials_link:hover,
-.footer__socials_link:focus {
-  fill: #c72535;
+.footer__socials_icon:hover,
+.footer__socials_icon:focus {
+  fill: orange;
 }
 
 .change_language {

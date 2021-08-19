@@ -116,6 +116,17 @@
   fill: $headerColor_2;
 }
 
+.new_shop__icon {
+  stroke: black;
+  fill: white;
+  transition: stroke 250ms linear;
+}
+
+.new_shop__icon:hover,
+.new_shop__icon:focus {
+  stroke: $hero_background;
+}
+
 .js_active {
   display: flex;
   justify-content: space-around;

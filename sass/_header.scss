@@ -50,8 +50,31 @@
 
 .header__buttons-search {
   margin-right: 30px;
+  stroke: black;
+  fill: #fff;
+  transition: stroke 250ms linear;
 }
 
 .header__buttons-cart {
   margin-right: 24px;
+  transition: stroke 250ms linear;
+}
+
+.header__buttons-search:hover,
+.header__buttons-search:focus {
+  stroke: $hero_background;
+}
+
+.header__buttons-cart:hover,
+.header__buttons-cart:focus {
+  stroke: $hero_background;
+}
+
+.header__buttons_profile {
+  transition: stroke 250ms linear;
+}
+
+.header__buttons_profile:hover,
+.header__buttons_profile:focus {
+  stroke: $hero_background;
 }

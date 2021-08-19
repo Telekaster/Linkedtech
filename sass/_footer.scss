@@ -75,13 +75,15 @@
   cursor: pointer;
 }
 
-.footer__socials_link {
-  color: tomato;
+.footer__socials_icon {
+  stroke: yellowgreen;
+  fill: yellowgreen;
+  color: blue;
 }
 
-.footer__socials_link:hover,
-.footer__socials_link:focus {
-  fill: $headerColor_2;
+.footer__socials_icon:hover,
+.footer__socials_icon:focus {
+  fill: orange;
 }
 
 .change_language {

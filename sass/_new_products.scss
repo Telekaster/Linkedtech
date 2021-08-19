@@ -163,11 +163,13 @@
   border: none;
   cursor: pointer;
   transition: fill 250ms linear;
+  stroke: $headersColor;
+  fill: $contract_color;
 }
 
 .newProducts__cart__buttons:hover,
 .newProducts__cart__buttons:focus {
-  fill: $headerColor_2;
+  stroke: $hero_background;
 }
 
 .newProducts__cart__color {
