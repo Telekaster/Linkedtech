@@ -1,3 +1,7 @@
+.about_area {
+  background: #f4f9fc;
+}
+
 .about_section {
   @extend .container;
   display: flex;
@@ -19,8 +23,6 @@
   padding-top: 84px;
   padding-bottom: 98px;
   width: auto;
-
-  background: #f4f9fc;
 }
 
 .about_text {
@@ -57,9 +59,9 @@
 }
 
 .about_image {
-  left: 8.46%;
-  right: 51.15%;
-  top: 29.97%;
-  bottom: 55.85%;
-  background: #247cc0;
+  // position: absolute;
+}
+
+.about_discription {
+  margin-left: 131px;
 }
