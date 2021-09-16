@@ -13,3 +13,14 @@ function listClickHandler() {
 
 }
 
+const body = document.querySelector('body');
+
+body.addEventListener('click', (evt) => {
+    if (evt.target.parentNode.className === "") {
+        svgList.classList.remove('js_active');
+        priceArea.classList.remove('price_active');
+        activeItem.classList.remove('list_active');
+        image.classList.remove('image_active');
+    }
+})
+

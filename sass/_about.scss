@@ -9,6 +9,10 @@
   margin-bottom: 125px;
 }
 
+.about_image {
+  background-color: red;
+}
+
 .about_title {
   margin-bottom: 31px;
 
@@ -36,10 +40,6 @@
   opacity: 0.6;
 }
 
-.about_list {
-  //   margin-top: 40px;
-}
-
 .about_item {
   display: flex;
   align-items: center;
@@ -56,10 +56,6 @@
 
 .about_item-checkbox {
   margin-right: 13px;
-}
-
-.about_image {
-  // position: absolute;
 }
 
 .about_discription {
