@@ -1,2 +1,2 @@
 # Linkedtech
-Online-shop
+https://telekaster.github.io/Linkedtech/
