@@ -108,9 +108,13 @@ a {
   overflow: hidden;
 }
 
+body {
+  min-width: 1550px;
+}
+
 .container, .header, .hero, .partners, .recommended, .commercials, .about_section, .newProducts, .new_shop__section, .contacts__section, .footer__section {
-  margin-left: 230px;
-  margin-right: 230px;
+  width: 1060px;
+  margin: auto;
 }
 
 .header {
